@@ -36,7 +36,7 @@ print(f"2 Course meal/s: {bill.toPay_2s}")
 print(f"3 Course meal/s: {bill.toPay_3s}")
 print(f"\nDeposit refund (should be £10): £{bill.get_deposit()}.")
 print(
-    "\nIssue: Someone has overpayed (payed a 3 course and not a 2 course).\nAnd 2 people have not payed for their 2 course."
+    "\nIssue: Someone has overpayed (payed a 3 course and not a 2 course).\nAnd 1 person have not payed for their 2 courses."
 )
 
 # Test for fix
@@ -56,6 +56,6 @@ print(f"\nDeposit refund: £{bill.get_deposit()}.")
 # Summary
 print("\n-----Summary-----")
 print(
-    "\nTo summarize, I think someone overpayed by a course and that 2 people who attened did not pay."
+    "\nTo summarize, I think someone overpayed by a course and that 1 person who attened did not pay."
 )
 print("And rowan owes £22.95 (2 courses and 1 potato option).")
