@@ -58,3 +58,4 @@ print("\n-----Summary-----")
 print(
     "\nTo summarize, I think someone overpayed by a course and that 2 people who attened did not pay."
 )
+print("And rowan owes £22.95 (2 courses and 1 potato option).")
